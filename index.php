@@ -32,27 +32,64 @@ ini_set('display_errors', 1);
 </head>
 <body>
 
+<h1>data.jastrow.me</h1>
+
 <table><tbody>
-<tr>
-	<td>fullname</td>
-	<td>Jan Jastrow</td>
-</tr>
-<tr>
-	<td>sex</td>
-	<td>male</td>
-</tr>
-<tr>
-	<td>twitter</td>
-	<td>@Gehirnfussel</td>
-</tr>
-<tr>
-	<td>drinks_beer</td>
-	<td>no</td>
-</tr>
+<tr><td colspan="2">basic_information</td></tr>
+
+<tr><td>first_name</td>
+<td>Jan</td></tr>
+
+<tr><td>middle_name</td>
+<td></td></tr>
+
+<tr><td>last_name</td>
+<td>Jastrow</td></tr>
+
+<tr><td>sex</td>
+<td>male</td></tr>
+
+<tr><td colspan="2">social_networks</td></tr>
+
+<tr><td>twitter</td>
+<td>yes</td></tr>
+
+<tr><td>twitter_username</td>
+<td>@Gehirnfussel</td></tr>
+
+<tr><td>facebook</td>
+<td>yes</td></tr>
+
+<tr><td>facebook_username</td>
+<td>jan.jastrow</td></tr>
+
+<tr><td>googleplus</td>
+<td>no</td></tr>
+
+<tr><td>googleplus_username</td>
+<td></td></tr>
+
+<tr><td colspan="2">beverage</td></tr>
+
+<tr><td>drinks_alcohol</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_wine</td>
+<td>no</td></tr>
+
+<tr><td>drinks_beer</td>
+<td>no</td></tr>
+
+<tr><td>drinks_shots</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_cocktails</td>
+<td>yes</td></tr>
+
+<tr><td>favorite_beverage</td>
+<td>fritz-kola</td></tr>
 
 </tbody></table>
 
-<footer>
-</footer>
 </body>
 </html>
