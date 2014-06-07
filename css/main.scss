@@ -1,0 +1,20 @@
+*, *::after, *::before {
+	box-sizing:border-box;
+}
+
+
+html {
+	font-family: 'Inconsolata', mono;
+}
+
+table {
+	td {
+		padding: 0.2em;
+	}
+	td:nth-child(odd) {
+		background: #eee;
+	}
+	td:nth-child(even) {
+		background: #c3e9f2;
+	}
+}
