@@ -37,17 +37,32 @@ ini_set('display_errors', 1);
 <table><tbody>
 <tr><td colspan="2">basic_information</td></tr>
 
-<tr><td>first_name</td>
+<tr><td>name_first</td>
 <td>Jan</td></tr>
 
-<tr><td>middle_name</td>
+<tr><td>name_middle</td>
 <td></td></tr>
 
-<tr><td>last_name</td>
+<tr><td>name_last</td>
 <td>Jastrow</td></tr>
 
-<tr><td>sex</td>
+<tr><td>born_on</td>
+<td>1988-11-27</td></tr>
+
+<tr><td>born_in</td>
+<td>Rendsburg</td></tr>
+
+<tr><td>body_height</td>
+<td>178cm</td></tr>
+
+<tr><td>body_weight</td>
+<td>78kg</td></tr>
+
+<tr><td>sexual_gender</td>
 <td>male</td></tr>
+
+<tr><td>sexual_orientation</td>
+<td>hetero</td></tr>
 
 <tr><td colspan="2">social_networks</td></tr>
 
@@ -63,13 +78,55 @@ ini_set('display_errors', 1);
 <tr><td>facebook_username</td>
 <td>jan.jastrow</td></tr>
 
+<tr><td>instagram</td>
+<td>yes</td></tr>
+
+<tr><td>instagram_username</td>
+<td>@Gehirnfussel</td></tr>
+
 <tr><td>googleplus</td>
 <td>no</td></tr>
 
 <tr><td>googleplus_username</td>
 <td></td></tr>
 
+<tr><td>flickr</td>
+<td>yes</td></tr>
+
+<tr><td>flickr_username</td>
+<td>DTDSR</td></tr>
+
+<tr><td>pinterest</td>
+<td>no</td></tr>
+
+<tr><td>pinterest_username</td>
+<td></td></tr>
+
 <tr><td colspan="2">beverage</td></tr>
+
+<tr><td>drinks_milk</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_juice</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_juice-apple</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_juice-orange</td>
+<td>no</td></tr>
+
+<tr><td>drinks_juice-banana</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_juice-cherry</td>
+<td>no</td></tr>
+
+<tr><td>drinks_juice-peach</td>
+<td>yes</td></tr>
+
+<tr><td>drinks_juice-pineapple</td>
+<td>yes</td></tr>
 
 <tr><td>drinks_alcohol</td>
 <td>yes</td></tr>

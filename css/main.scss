@@ -2,19 +2,24 @@
 	box-sizing:border-box;
 }
 
-
 html {
-	font-family: 'Inconsolata', mono;
+	font-family: 'Inconsolata', 'Courier', monospace;
 }
 
 table {
+	@media screen and (max-width: 480px) {
+		width: 100%
+	}
+
 	td {
-		padding: 0.2em;
-	}
-	td:nth-child(odd) {
-		background: #eee;
-	}
-	td:nth-child(even) {
-		background: #c3e9f2;
+		padding: 0.2em 0.4em;
+
+		&:nth-child(odd) {
+			background: #eee;
+			text-transform: lowercase;
+		}
+			&:nth-child(even) {
+			background: #c3e9f2;
+		}
 	}
 }
